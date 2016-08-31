@@ -1,0 +1,25 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  
+  <remove-node path="//interface[@name='NativeAdRequestListener']"/>
+  <remove-node path="//interface[@name='MediatedBannerAdView']"/>
+  <remove-node path="//interface[@name='MediatedInterstitialAdView']"/>
+  <!--<remove-node path="//implements[@name='Ad']"/>-->
+  <remove-node path="//implements"/>
+  <remove-node path="//field[@name='currentAd']"/>
+  <remove-node path="/api/package[@name='com.appnexus.opensdk']/class[@name='MediatedAdViewController']/field[@name='listener']"/>
+  <remove-node path="/api/package[@name='com.appnexus.opensdk']/class[@name='MediatedAdViewController']/field[@name='mAV']"/>
+  <remove-node path="/api/package[@name='com.appnexus.opensdk']/class[@name='MediatedAdViewController']/field[@name='mediaType']"/>
+  <remove-node path="//field[@name='lastDisplayable']"/>
+  <remove-node path="//field[@name='mediatedDisplayable']"/>
+  <remove-node path="/api/package[@name='com.appnexus.opensdk']/class[@name='BannerAdView']/method[@name='onLayout' and count(parameter)=5 and parameter[1][@type='boolean'] and parameter[2][@type='int'] and parameter[3][@type='int'] and parameter[4][@type='int'] and parameter[5][@type='int']]"/>
+  <remove-node path="/api/package[@name='com.appnexus.opensdk']/class[@name='MediatedAdViewController.TimeoutHandler']"/>
+  <remove-node path="/api/package[@name='com.appnexus.opensdk']/class[@name='MediatedAdViewController.ResultCBRequest']"/>
+  <remove-node path="/api/package[@name='com.appnexus.opensdk']/class[@name='MediatedNativeAdController']"/>
+</metadata>

@@ -1,0 +1,6 @@
+Binding for:
+com.appnexus.opensdk:appnexus-sdk:[2,3)
+
+Dependencies:
+
+appnexus-sdk-2.14.aar,    Path=C:\Users\jakka\.gradle\caches\modules-2\files-2.1\com.appnexus.opensdk\appnexus-sdk\2.14\6e28a3f22c9f29d61418e7bf94b0f24b1945a874\appnexus-sdk-2.14.aar
