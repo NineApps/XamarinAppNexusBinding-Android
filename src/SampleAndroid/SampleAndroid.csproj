@@ -74,7 +74,7 @@
     <None Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="AndroidBindings\Binding_AppnexusSdk\Binding_AppnexusSdk.csproj">
+    <ProjectReference Include="..\Binding_AppnexusSdk\Binding_AppnexusSdk.csproj">
       <Project>{163355f7-2993-4fe9-a904-6953ce6f0731}</Project>
       <Name>Binding_AppnexusSdk</Name>
     </ProjectReference>
