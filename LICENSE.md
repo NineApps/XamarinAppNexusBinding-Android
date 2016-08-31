@@ -4,8 +4,6 @@ https://github.com/appnexus/mobile-sdk-android/blob/master/LICENSE
 
 ###Licence for this binding project
 
-###Licence for this binding project
-
 MIT License
 
 Copyright (c) 2016 Nine
